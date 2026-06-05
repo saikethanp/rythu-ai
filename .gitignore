@@ -1,0 +1,24 @@
+# Environment
+.env
+*.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+
+# Logs
+logs/
+*.log
+
+# Models (large files)
+models/*.bin
+models/*.pt
+models/*.gguf
+
+# OS
+.DS_Store
+Thumbs.db
